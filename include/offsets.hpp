@@ -17,6 +17,16 @@ namespace offset {
     constexpr uint64_t FOV_RVA               = 0x4263DB8;
     constexpr uint64_t VERSION_STRING        = 0x42C9AF8;
     constexpr uint64_t LAT_OVERRIDE_RVA      = 0x399CE90;
+    constexpr uint64_t ENTITY_HANDLE_CAPACITY = 0x3B40E04;
+    constexpr uint64_t ENTITY_HANDLE_LIVE_COUNT = 0x3B40E08;
+    constexpr uint64_t ENTITY_HANDLE_FREE_HEAD = 0x3B40E0C;
+    constexpr uint64_t ENTITY_HANDLE_FREE_TAIL = 0x3B40E10;
+    constexpr uint64_t ENTITY_HANDLE_TABLE   = 0x3B40E18;
+    constexpr uint64_t ENTITY_HANDLE_OFF     = 0x134;
+    constexpr uint64_t ENTITY_PRESENCE_MASK_OFF = 0x110;
+    constexpr uint64_t LINK_UID_OFF          = 0xD0;
+    constexpr uint64_t SM_GAMEADMIN_OFF      = 0x2E0;
+    constexpr uint64_t SM_LATENCY_OFF        = 0xC8;
     constexpr uint64_t VM_XOR                = 0xF0E9B9E60E77F60D;
     constexpr uint64_t VM_SUB                = 0x2BBB67E6D9ABB5EE;
     constexpr uint64_t VM_FUCKBLIZZARD       = 0xEAE9FFFDFBDB2C9F;
